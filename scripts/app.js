@@ -18,7 +18,7 @@
          MainParagraph.setAttribute("class", "mt-3");
          MainParagraph.textContent = "this is my first paragraph";
 
-         MainParagraph.appendChild(MainParagraph);
+         MainContent.appendChild(MainParagraph);
 
          let FirstString = "this is";
          let SecondString = `${FirstString}the main paragraph`;
