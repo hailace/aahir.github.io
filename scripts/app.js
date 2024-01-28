@@ -1,3 +1,10 @@
+<!--
+Author: Ajay Singh Ahir, Cooper McDonald
+Group: Group 12
+Date: January 24, 2024
+-->
+
+
 "use strict";
 
 // IIFE - Immediately invoked functional expression
@@ -5,7 +12,7 @@
     function DisplayHomePage() {
         console.log("Called DisplayHomePage...");
 
-        // Add your home page logic here
+        // home page logic
         let aboutUsButton = document.getElementById("aboutUsBtn");
         aboutUsButton.addEventListener("click", function () {
             location.href = "about.html";
@@ -38,31 +45,31 @@
     function DisplayPortfolioPage() {
         console.log("Called DisplayPortfolioPage...");
 
-        // Add your portfolio page logic here
+        // portfolio page logic here
     }
 
     function DisplayServicesPage() {
         console.log("Called DisplayServicesPage...");
 
-        // Add your services page logic here
+        // services page logic here
     }
 
     function DisplayTeamPage() {
         console.log("Called DisplayTeamPage...");
 
-        // Add your team page logic here
+        // team page logic here
     }
 
     function DisplayBlogPage() {
         console.log("Called DisplayBlogPage...");
 
-        // Add your blog page logic here
+        // blog page logic here
     }
 
     function DisplayContactPage() {
         console.log("Called DisplayContactPage...");
 
-        // Add your contact page logic here
+        // contact page logic here
 
         // Event Handling for Contact Form Submission
         const contactForm = document.getElementById("contactForm");
@@ -87,8 +94,8 @@
             });
         }
 
-        // Additional Navigation Bar
-        addFooterNavigationBar();
+
+        // addFooterNavigationBar();
     }
 
     function addFooterNavigationBar() {
@@ -97,9 +104,9 @@
 
         let navLinks = document.createElement("div");
         navLinks.innerHTML = `
-            <a href="privacy.html" class="text-white mx-2">Privacy Policy</a>
-            <a href="terms.html" class="text-white mx-2">Terms of Service</a>
-            <a href="contact.html" class="text-white mx-2">Contact Us</a>
+<!--            <a href="privacy.html" class="text-white mx-2">Privacy Policy</a>-->
+<!--            <a href="terms.html" class="text-white mx-2">Terms of Service</a>-->
+<!--            <a href="contact.html" class="text-white mx-2">Contact Us</a>-->
         `;
 
         footer.appendChild(navLinks);
@@ -132,10 +139,7 @@
     }
 
     function displayModal(form) {
-        // Implement modal display logic here
-        // You can use Bootstrap modal or any other modal library of your choice
-        // Example using Bootstrap modal (make sure to include Bootstrap modal HTML structure):
-        // $('#exampleModal').modal('show');
+
         alert("Form submitted successfully!");
     }
 
