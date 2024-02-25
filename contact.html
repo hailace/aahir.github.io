@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+    <!-- CSS Section -->
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="content/app.css">
+</head>
+<body>
+    <header></header>
+<div class="container">
+    <h1 class="mb-5">Contact Us</h1>
+    <div id="messageArea"></div>
+    <div class="row justify-content-lg-center g-3"></div>
+
+    <form>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Full Name</span>
+            <input id= "fullName" name= "fullName" type="text" class="form-control"  aria-describedby="Full Name Input" aria-label="Full Name" required>
+
+        </div>
+
+        <div class="input-group mb-3">
+                <span class="input-group-text">Contact Number</span>
+                <input id= "contactNumber" name= "contactNumber" type="tel" class="form-control"  aria-describedby="Contact Number Input" aria-label="Contact Number" required>
+
+            </div>
+
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Email Address</span>
+            <input id= "emailAddress" name= "emailAddress" type="email" class="form-control"  aria-describedby="Email Address Input" aria-label="Email Address" required>
+
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Your Message</span>
+            <textarea id= "message" name= "message"  class="form-control" aria-label="Message Area"></textarea>
+
+        </div>
+
+        <div class="input-group mb-3">
+
+            <input id= "subscribeCheckbox" name= "subscribeCheckbox" type="checkBox" class="form-check-input">
+            <label class= "form-check-label" for="subscribeCheckbox">Subscribe to our contact list</label>
+        </div>
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment"></textarea>
+    </div>
+        <button id= sendButton type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>
+            Submit</button>
+        <button id= cancelButton type="reset" class="btn btn-warning"><i class="fa fa-undo" ></i>
+            Cancel</button>
+    </form>
+    
+    
+    <!-- Message area to display success or error messages -->
+    <div id="messageArea"></div>
+    <div class="col-lg-4 col-md-4">
+        <a href="contact-list.html" class="btn btn-primary btn-lg"><i class="fa fa-list-alt"></i>
+            Show Contact List</a>
+    </div>
+</div>
+
+<footer class="bg-body-tertiary text-white text-center py-3">
+    <p class="text-muted text-center">&copy; 2024 </p>
+    <div class="text-center">
+        <a href="PrivacyPolicy.html" class="text-muted">Privacy Policy</a>
+        <span class="text-muted"> | </span>
+        <a href="TermsOfService.html" class="text-muted">Terms Of Service</a>
+        <span class="text-muted"> | </span>
+        <a href="contact.html" class="text-muted">Contact</a>
+    </div>
+</footer>
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"> </script>
+ <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ <script src="scripts/namespace.js"></script>
+ <script src="scripts/contact.js"></script>
+ <script src="scripts/app.js"></script>
+ <script src="scripts/jquery.min.js"></script>
+<script src="scripts/feedback.js"></script>
+
+</body>
+</html>

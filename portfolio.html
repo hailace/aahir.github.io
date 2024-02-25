@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+
+    <!--  Links  -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!--  NavBar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="index.html"><i class="fa-solid fa-house"></i> Harmony Hub</a>
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               aria-current="page"
+                               href="index.html">
+                                <i class="fa-solid fa-house"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="portfolio.html"><i class="fa-solid fa-book-open"></i>Portfolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html"><i class="fa-solid fa-signal"></i>Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html"><i class="fa-solid fa-users"></i>Team</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html"><i class="fa-solid fa-bell"></i>Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html"><i class="fa fa-calendar"></i>Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html"><i class="fa fa-camera"></i>
+                                gallery</a>
+                        </li>
+
+                        <li id="login" class="nav-item">
+                            <a class="nav-link" href="login.html"><i class="fa fa-sign-in-alt" aria-hidden="true"></i>
+                                Login</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--  Portfolio Cards  -->
+    <div >
+        <img class="position-relative" src="content/25043.webp" alt="protfolio"
+             style="width:100%">
+        <div class="card-group d-flex justify-content-center" >
+
+            <div class="card4">
+                <img class="card-img-top" src="content/hands.jpg" alt="People holding a hoop">
+                <div class="card-body">
+                    <h5 class="card-title">Community Program</h5>
+                    <p class="card-text">To garner a stronger sense of community join us in our program! </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"></small>
+                </div>
+            </div>
+            <div class="card3">
+                <img class="card-img-top" src="content/appcontest.jpg" alt="App contest">
+                <div class="card-body" style="text-decoration-color: white">
+                    <h5 class="card-title">Community App Development Contest</h5>
+                    <p class="card-text">Organise a competition where people in the community can submit concepts for mobile applications that cater to specific requirements. Encourage a sense of pride and community ownership by enlisting the help of local developers and students to create these apps. </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"></small>
+                </div>
+            </div>
+            <div class="card2">
+                <img class="card-img-top" src="content/digitalliteracy.jpg" alt="Bring all communities together">
+                <div class="card-body">
+                    <h5 class="card-title">Digital Learning Workshop</h5>
+                    <p class="card-text">Provide digital literacy classes to assist community members especially seniors in learning how to use computers, the internet, and online communication tools. </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"></small>
+                </div>
+            </div>
+
+        <a href="load.html"><button id="loadmore">Load More</button></a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-body-tertiary text-white text-center py-3">
+        <p class="text-muted text-center">&copy; 2024 </p>
+        <div class="text-center">
+            <a href="PrivacyPolicy.html" class="text-muted">Privacy Policy</a>
+            <span class="text-muted"> | </span>
+            <a href="TermsOfService.html" class="text-muted">Terms Of Service</a>
+            <span class="text-muted"> | </span>
+            <a href="contact.html" class="text-muted">Contact</a>
+        </div>
+    </footer>
+
+
+
+
+
+<!--  includes  -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/portfolio.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
